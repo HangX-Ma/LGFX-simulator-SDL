@@ -20,7 +20,7 @@ sudo apt-get install -y build-essential libsdl2-dev
 
 ```bash
 git clone https://github.com/HangX-Ma/LGFX-simulator-SDL.git
-cd LGFX-simulator-SDL && git submodule init --update --recursive
+cd LGFX-simulator-SDL && git submodule update --init --recursive
 cmake -B build
 cmake --build build -j$(nproc)
 ```
